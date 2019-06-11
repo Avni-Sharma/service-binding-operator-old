@@ -3,5 +3,7 @@ kind: ServiceBinding
 metadata:
   name: example-servicebinding
 spec:
-  # Add fields here
-  size: 3
+  csvName: REPLACE_CSV_NAME
+  csvVersion: REPLACE_CSV_VERSION
+  csvNamespace: REPLACE_CSV_NAMESPACE
+  deploymentLabel: REPLACE_CSV_LABEL
